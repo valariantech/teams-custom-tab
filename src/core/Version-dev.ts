@@ -44,7 +44,7 @@ export function getVersion(path?: string): Promise<Readonly<Version>> {
 		return Promise.resolve(VERSION);
 	}
 	const p = `${path ?? VERSION_PATH}?${new Date().getTime()}`;
-	console.debug("Loading version Mon Jun 22 10:21:16 UTC 2026 info from", p);
+	console.debug("Loading version Tue Jun 23 09:33:08 UTC 2026 info from", p);
 	return fetch(p)
 		.then(response => {
 			if (response.status === 200) {
@@ -191,3 +191,4 @@ export function getVersion(path?: string): Promise<Readonly<Version>> {
 // Tue Jun  2 09:47:40 UTC 2026
 // Tue Jun  9 09:33:18 UTC 2026
 // Tue Jun 16 10:03:08 UTC 2026
+// Tue Jun 23 09:33:10 UTC 2026

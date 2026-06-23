@@ -191,3 +191,4 @@ export function getVersion(path?: string): Promise<Readonly<Version>> {
 // Tue Jun  2 09:47:40 UTC 2026
 // Tue Jun  9 09:33:18 UTC 2026
 // Tue Jun 16 10:03:08 UTC 2026
+// Tue Jun 23 09:33:10 UTC 2026
